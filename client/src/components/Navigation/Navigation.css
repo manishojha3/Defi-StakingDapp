@@ -1,0 +1,28 @@
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 36px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--bg-color);
+  border-bottom: 0.4px solid rgb(182, 182, 182);
+}
+
+.navbar-btns,
+.navbar-acc {
+  font-size: 10px !important;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 12px;
+}
+
+.connected-ac,
+.network {
+  background: white;
+  padding: 8px;
+  border-radius: 8px;
+  font-size: 12px;
+}
